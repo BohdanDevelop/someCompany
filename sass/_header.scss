@@ -1,0 +1,29 @@
+.header {
+  border-bottom: 1px solid rgba(161, 161, 161, 1);
+  &__links-group {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+  }
+  &__link:not(:last-child) {
+    margin-right: 40px;
+  }
+  &__link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19.5 / 16);
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 40px;
+    border-bottom-color: rgba(255, 255, 255, 0);
+    transition: border-bottom-color 250ms linear;
+  }
+  &__link:hover {
+    text-shadow: 5px 2px 8px #ce5937;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+  }
+}

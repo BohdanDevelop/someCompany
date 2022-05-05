@@ -1,0 +1,28 @@
+.container {
+  max-width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 0%),
+    url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: auto 914.2px;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 0%),
+      url('../images/2x/background@2.png');
+    background-repeat: no-repeat;
+    background-size: auto 914.2px;
+  }
+}
